@@ -7,7 +7,7 @@
           {
             "name": "task-finished-beep",
             "type": "command",
-            "command": "node \"${extensionPath}${/}scripts${/}beep.js\""
+            "command": "node ${extensionPath}/scripts/beep.js"
           }
         ]
       }
@@ -17,9 +17,9 @@
         "matcher": "*",
         "hooks": [
           {
-            "name": "input-required-beep",
+            "name": "task-complete-beep",
             "type": "command",
-            "command": "node \"${extensionPath}${/}scripts${/}beep.js\""
+            "command": "node ${extensionPath}/scripts/beep.js"
           }
         ]
       }
