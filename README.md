@@ -18,7 +18,7 @@ To get the repository on your local machine (Linux, Windows, or macOS), choose o
 ### Method 1: Using Git (Recommended)
 Open your terminal (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows) and run:
 ```bash
-git clone https://github.com/WPConstructor/git-cli-beep.git
+git clone https://github.com/WPConstructor/gemini-cli-beep.git
 cd gemini-cli-beep
 ```
 
