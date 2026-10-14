@@ -1,0 +1,28 @@
+{
+  "hooks": {
+    "AfterAgent": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "name": "task-finished-beep",
+            "type": "command",
+            "command": "node \"${extensionPath}${/}scripts${/}beep.js\""
+          }
+        ]
+      }
+    ],
+    "Notification": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "name": "input-required-beep",
+            "type": "command",
+            "command": "node \"${extensionPath}${/}scripts${/}beep.js\""
+          }
+        ]
+      }
+    ]
+  }
+}

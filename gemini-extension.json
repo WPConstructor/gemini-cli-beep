@@ -1,0 +1,5 @@
+{
+  "name": "gemini-cli-beep",
+  "version": "1.0.0",
+  "description": "A Gemini CLI plugin that sounds three beeps when input is required or a task finishes."
+}
