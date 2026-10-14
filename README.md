@@ -1,8 +1,14 @@
 # Gemini CLI Beep Plugin
 
-A cross-platform (Windows, macOS, Linux) Gemini CLI extension that triggers three audible terminal beeps (`\x07`) whenever:
+A cross-platform (Windows, macOS, Linux) Gemini CLI extension that triggers three audible terminal beeps whenever:
 - **Input is required** (via CLI notifications such as tool permissions or prompts requiring user intervention).
 - **A task finishes** (when an agent turn or execution loop completes).
+
+If you need a quick and easy way to get notification beeps in Gemini CLI, this plugin is for you! 🔔
+
+You can configure hooks manually, but getting them to work reliably can sometimes be tricky. That's why I created this plugin: simply download it, connect it to your Gemini CLI, and let it notify you when a task is complete or your attention is needed.
+
+It's cross-platform, so you can use it on Linux, macOS, and Windows. No need to reinvent the wheel just to get a beep! 😄
 
 ## Downloading the Repository
 
@@ -11,7 +17,7 @@ To get the repository on your local machine (Linux, Windows, or macOS), choose o
 ### Method 1: Using Git (Recommended)
 Open your terminal (Terminal on macOS/Linux, Command Prompt or PowerShell on Windows) and run:
 ```bash
-git clone <repository-url>
+git clone https://github.com/WPConstructor/git-cli-beep.git
 cd gemini-cli-beep
 ```
 
