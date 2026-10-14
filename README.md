@@ -1,4 +1,5 @@
-# Gemini CLI Beep Plugin
+<h1 align="center">Gemini CLI Beep Plugin</h1>
+<p align="center"><img src="https://wpconstructor.com/assets/images/logos/repoluxe/wpconstructor-gemini-cli-beep.png" alt="Gemini CLI Beep Logo" width="400"></p>
 
 A cross-platform (Windows, macOS, Linux) Gemini CLI extension that triggers three audible terminal beeps whenever:
 - **Input is required** (via CLI notifications such as tool permissions or prompts requiring user intervention).
